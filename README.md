@@ -4,10 +4,10 @@
 The main goal of this project is to transform raw event and log data stored in json files on AWS S3 into an analytics ready data model on AWS Redshift.
 
 ### Data Pipeline
-![DAG](./data-pipeline-dag.png)
+![DAG](./data-pipeline-dag.PNG)
 
 ## Data Model
-![model](./data-model.png)
+![model](./data-model.PNG)
 
 ### Installing
 1. Install [Docker](https://www.docker.com/get-started).
@@ -28,7 +28,7 @@ The main goal of this project is to transform raw event and log data stored in j
     Use Airflow UI to set up connections to AWS Account and AWS Redshift
 
     1. Go to Airflow UI Admin/Connections and navigate to the Create tab.
-    ![AirFlow Admin Panel](./airflow-UI.png)
+    ![AirFlow Admin Panel](./airflow-UI.PNG)
 
     2. Set up connection to AWS Account:
       * **Conn Id**: Enter `aws_credentials`.
